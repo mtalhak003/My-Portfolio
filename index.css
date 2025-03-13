@@ -1,0 +1,625 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+}
+ .navlist .navlinks {
+    display: inline;
+    float: left;
+    color: #ffffff;
+  text-align: center;
+  padding: 14px 23px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-top: 14px;
+  
+}
+.navlinks:hover{
+  
+  background-color: rgb(254, 74, 0);
+  color: white;
+}
+.navlinks:active{
+   background-color: rgb(254, 74, 0);
+}
+.navbar {
+  margin-left: 50%;
+}
+.navbtn{
+    margin-top: 2.1%;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 1px 5px  rgba(254, 72, 0, 0.733);
+    padding: 14px 23px;
+    font-size: 17px;
+    background-color: rgb(254, 74, 0);
+    margin-left: 15px;
+}
+.logo{
+    float:left;
+    margin-left: -90%;
+    margin-top: -12px;
+}
+
+@media only screen and (max-width: 570px) {
+  
+  .logo {
+    color: orange;
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+.hero-section{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.hero-disc{
+    margin-left:1.2%;
+    font-family:sans-serif;
+    margin-top: -7px;
+}
+.hero-btn1{
+    margin-left: 2%;
+    background-color: rgb(254, 74, 0);
+    border: none;
+    color: white;
+    padding-bottom: 11px;
+    padding-right:14px;
+    padding-left: 14px;
+    padding-top: 11px;
+    border-radius: 5px;
+
+}
+.hero-btn2{
+    margin-left: 1%;
+    background:transparent;
+    border:2px solid rgb(255, 255, 255);
+    color: rgb(250, 250, 250);
+    padding-bottom: 11px;
+    padding-right:14px;
+    padding-left: 14px;
+    padding-top: 11px;
+    border-radius: 5px;
+   
+    
+}
+.hero-btn2:hover{
+    background-color: rgb(254, 74, 0) ;
+    color: white;
+    border-color: rgb(254, 74, 0);
+
+}
+.hero-img{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -20%;
+    
+}
+
+.hero-txt {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(254, 74, 0);
+  margin-left: 30px;
+  color: white;
+  padding: 12px;
+  font-family: sans-serif;
+  box-shadow: 1px 4px 13px rgb(254, 74, 0);
+}
+  
+  .triangle {
+    width: 0;
+    height: 0;
+     border-left: 20px solid transparent;
+  border-right: 15 solid transparent;
+  border-top: 20px solid rgb(254, 74, 0);
+  margin-left: -50px;
+  margin-top:2.1%;
+  position: absolute;
+  }
+.hero-title{
+    padding-top: 8px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+.next-icon{
+    text-align: center;
+    position: absolute;
+    margin-left: 43%;
+    margin-right: auto;
+    margin-top: 10%;
+    color:  rgb(254, 74, 0);
+    font-size: 45px;
+
+}
+.circle{
+    border-radius: 40%;
+    margin-top: 8.8%;
+    background-color: none;
+    border: 2px solid  rgb(254, 74, 0);
+    margin-left: 43.1%;
+    padding-left: 40px;
+    padding-bottom: 78px;
+    position: absolute;
+}
+.about-me {
+  margin-top: 30%;
+ }
+ .skill-line-1{
+    background-image: linear-gradient(to right, red , yellow);    border-radius: 15px;
+    height:6px;
+    width:50%;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: -8%;
+    padding-right: 180%;
+
+ }
+ .skill-line-2{
+    background-image: linear-gradient(to right, red , yellow);    border-radius: 15px;
+    height:6px;
+    width:20%;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: -8%;
+    padding-right: 180%;
+
+ }
+
+ .skill-line-3{
+    background-image: linear-gradient(to right, red , yellow);    border-radius: 15px;
+    height:6px;
+    width:60%;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: -8%;
+    padding-right: 180%;
+
+ }
+ .skill-line-4{
+    background-image: linear-gradient(to right, red , yellow);    border-radius: 15px;
+    height:6px;
+    width:90%;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: -8%;
+    padding-right: 180%;
+
+ }
+.skill-lines{
+    position: absolute;
+    margin-left:59%;
+    margin-top: -23%;
+
+}
+ .about-img{
+    height: 45%;
+    width: 50%;
+    margin-left:3%;
+ }
+ .skill-title{
+    position: absolute;
+margin-left:59% ;
+margin-top: -38%;
+font-family: sans-serif;
+
+}
+.skill-disc{
+    position: absolute;
+    margin-left:59% ;
+margin-top: -30%;
+font-family: sans-serif;
+line-height: 170%;    
+}
+.about-img{
+    border-radius:10px ;
+} 
+.year-exp{
+    margin-top: 35% ;
+    position: absolute;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 7%;
+    margin-left: -2.2%;
+    padding: 12px;
+    padding-top: 50px;
+    
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+}
+.tag1 {
+    position: absolute;
+    margin-left: 0%;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 25px;
+    margin-top: 35%;
+}
+.tag2{
+    position: absolute;
+  margin-left: 2%;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 25px;
+    margin-top: 35%;
+}
+.tag3{
+    position: absolute;
+    margin-left: 4%;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 25px;
+    margin-top: 35%;}
+    .tag4{
+    position: absolute;
+    margin-left: 6%;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 25px;
+    margin-top: 35%;
+    }
+   .skill-name-1 {
+    padding-bottom: -90px;
+    font-size: 25px;
+    font-family: sans-serif;
+   }
+   .skill-name-2 {
+    padding-bottom: -70px;
+    padding-top: -10px;
+    font-size: 25px;
+    font-family: sans-serif;
+   }
+
+   .skill-name-3 {
+    font-size: 25px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    font-family: sans-serif;
+   }
+   .skill-name-4 {
+    font-size: 25px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    font-family: sans-serif;
+   }
+.percentage1 {
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 60%
+}
+.percentage2 {
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 45%
+}
+
+.percentage3 {
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 110%
+}
+.percentage4 {
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 110%
+}
+.progress-bar-container {
+    width: 500px;
+    height: 6px;
+    border-radius: 25px;
+    background: rgba(43, 43, 43, 0.692);
+  }
+  
+  .progress-bar-indicator {
+    height: 6px; 
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-size: 500px 100%;
+    border-radius: 25px;
+  }
+  
+  #indicator-1 {
+    width: 80%;
+  }
+  
+  #indicator-2 {
+    width: 50%;
+  }
+  
+  #indicator-3 {
+    width: 20%;
+  }
+  #indicator-4 {
+    width: 70%;
+  }
+
+  .skill-name-1 span {
+    font-size: 25px;
+    font-family:serif;
+  }
+  .skill-name-2 span {
+    font-size: 25px;
+    font-family:serif;
+  }
+  .skill-name-3 span {
+    font-size: 25px;
+    font-family:serif;
+  }
+  
+  .skill-name-4 span {
+    font-size: 25px;
+    font-family:serif;
+  }
+  .btn{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 35px; 
+  }
+  .btn-1{
+    margin-top: 3%;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 1px 5px  rgba(254, 72, 0, 0.733);
+    padding: 16px 29px;
+    font-size: 17px;
+    background-color: rgb(254, 74, 0);
+    margin-left: 15px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+  .btn-2{
+    margin-top: 3%;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);  
+    border-radius: 7px;
+    padding: 14px 23px;
+    font-size: 17px;
+    background-color: transparent;
+    margin-left: 15px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+  .btn-2:hover{
+    background-color: rgb(254, 74, 0) ;
+    color: white;
+    border-color: rgb(254, 74, 0);
+    box-shadow: 2px 1px 5px  rgba(254, 72, 0, 0.733);
+  }
+
+
+  .services-sec {
+    margin-top: 15%;
+    text-align: center;
+  }
+  .services-table{
+
+  }
+  .services-table {
+    background-color: gray;
+    width: 17%;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-right: 40px;
+  }
+  .services-icon {
+    background-color: rgb(24, 24, 24);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  
+
+.services-table-container1{
+display: flex;
+flex-wrap: nowrap;
+padding-bottom: 4%;
+}
+.services-table-container2{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 6%;
+    }
+    .view-btn{
+      padding: 12px;
+      margin-left: -1%;
+      background-color: rgb(254, 74, 0);
+      border: none;
+      color: white;
+      margin-top: 2px;
+      border-radius: 5px;
+      box-shadow: 1px 2px 8px rgb(254, 74, 0);
+
+      
+    }
+    .hero-img2{
+height: 500px;
+width: 100%;
+border-radius: 5px;
+    }
+    .hire-txt{
+      position: absolute;
+      margin-top: -19%;
+      margin-left: 35%;
+      color: white;
+      font-weight: bold;
+      font-size: 35px;
+      font-family:sans-serif;
+    }
+    .hire-btn{
+      position: absolute;
+      margin-left:45% ;
+      background-color: rgb(254, 74, 0);
+      border: none;
+      color: white;
+      margin-top: -100px;
+      border-radius: 5px;
+      box-shadow: 1px 2px 8px rgb(254, 74, 0);
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 20px;
+    }
+    .work-title{
+     margin-left: 45%; 
+     font-family: sans-serif;
+     font-weight: bold;
+     padding-top: 80px;
+    }
+    .img-1{
+      height:350px ;
+      width: 500px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    .img-2{
+      height:350px ;
+      width: 500px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    .img-3{
+      height:350px ;
+      width: 500px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    .img-4{
+      height:350px ;
+      width: 500px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    .img-5{
+      height:350px ;
+      width: 500px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    .img-6{
+      height:350px ;
+      width: 500px;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+
+
+
+    .work-imgs {
+      display: -ms-flexbox; /* IE 10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE 10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+      position: absolute;
+    }
+    
+    /* Create two equal columns that sits next to each other */
+    .column {
+      -ms-flex: 50%; /* IE 10 */
+      flex: 50%;
+      padding: 0 4px;
+
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
+    .img1-btn {
+      position: absolute;
+    }
+    .img1-btn{
+      position: absolute;
+      padding: 12px;
+      margin-left: -24%;
+      margin-top:25% ;
+      background-color: rgb(254, 74, 0);
+      border: none;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 1px 2px 8px rgb(254, 74, 0);
+    }
+    .img1a-btn{
+      position: absolute;
+      padding: 12px;
+      margin-left:-18%;
+      margin-top:25% ;
+      background-color: rgb(254, 74, 0);
+      border: none;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 1px 2px 8px rgb(254, 74, 0);
+    }
+    .img2-btn{
+      position: absolute;
+      padding: 12px;
+      margin-left:-27%;
+      margin-top:29.5% ;
+      background-color: rgb(254, 74, 0);
+      border: none;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 1px 2px 8px rgb(254, 74, 0);
+    }
+    .img2a-btn{
+      position: absolute;
+      padding: 12px;
+      margin-left:-21%;
+      margin-top:29.5% ;
+      background-color: rgb(254, 74, 0);
+      border: none;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 1px 2px 8px rgb(254, 74, 0);
+    }
+    .img3-btn{
+      position: absolute;
+      padding: 12px;
+      margin-left:-22%;
+      margin-top:29.5% ;
+      background-color: rgb(254, 74, 0);
+      border: none;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 1px 2px 8px rgb(254, 74, 0);
+    }
+    .img3a-btn{
+      position: absolute;
+      padding: 12px;
+      margin-left:-16.5%;
+      margin-top:29.5% ;
+      background-color: rgb(254, 74, 0);
+      border: none;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 1px 2px 8px rgb(254, 74, 0);
+    }
